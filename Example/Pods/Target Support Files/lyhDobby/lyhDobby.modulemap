@@ -1,0 +1,6 @@
+framework module lyhDobby {
+  umbrella header "lyhDobby-umbrella.h"
+
+  export *
+  module * { export * }
+}

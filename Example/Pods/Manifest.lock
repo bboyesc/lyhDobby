@@ -1,0 +1,16 @@
+PODS:
+  - lyhDobby (0.1.0)
+
+DEPENDENCIES:
+  - lyhDobby (from `../`)
+
+EXTERNAL SOURCES:
+  lyhDobby:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  lyhDobby: be25b829c8cc1e88872ba6ab411479c9abf32525
+
+PODFILE CHECKSUM: db7489a2ac9f76bb1d01762280e5d52be1c647ce
+
+COCOAPODS: 1.11.3
