@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'lyhDobby'
 ```
 
-## Author
-
-lyh, 592816249@qq.com
-
 ## License
 
 lyhDobby is available under the MIT license. See the LICENSE file for more info.
