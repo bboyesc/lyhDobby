@@ -7,7 +7,7 @@
 //
 
 #import "LYViewController.h"
-#import <lyhDobby/dobby.h>
+#import <LyDobby.h>
 @interface LYViewController ()
 
 @end

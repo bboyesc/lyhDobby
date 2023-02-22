@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "LyDobby.h"
+#import "dobby.h"
 
 FOUNDATION_EXPORT double lyhDobbyVersionNumber;
 FOUNDATION_EXPORT const unsigned char lyhDobbyVersionString[];

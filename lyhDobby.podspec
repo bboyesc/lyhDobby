@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lyh/lyhDobby'
+  s.homepage         = 'https://github.com/bboyesc/lyhDobby'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' } #开源协议，项目文件目录下需要有一个MIT开源协议文件，创建的时候默认就创建了这个，具体内容可以打开 LICENSE 查看
   s.author           = { 'lyh' => '592816249@qq.com' } #作者名字、邮箱
@@ -30,15 +30,21 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'  #库最低支持的系统版本
 
-  s.source_files = 'lyhDobby/**/*'#这个很重要，指定资源文件，前缀就是 .podspec 文件当前路径，只用写之后的路径，如 Classes/* 是指 Classes 文件夹下的所有文件，但不包括子文件夹里面的文件、Classes/**/* 是指包含所有 Classes 文件夹下的文件，包括子文件、Classes/**/*.{h,m} 是指包含所有 Classes 文件夹下的后缀为 .h 和 .m 的文件，也可以指定文件。
+  s.source_files = 'lyhDobby/Classes/*.{h,m}','lyhDobby/Classes/ThirdParty/*.{h}'#这个很重要，指定资源文件，前缀就是 .podspec 文件当前路径，只用写之后的路径，如 Classes/* 是指 Classes 文件夹下的所有文件，但不包括子文件夹里面的文件、Classes/**/* 是指包含所有 Classes 文件夹下的文件，包括子文件、Classes/**/*.{h,m} 是指包含所有 Classes 文件夹下的后缀为 .h 和 .m 的文件，也可以指定文件。
   
-  s.vendored_libraries  = 'lyhDobby/*.{a}'
+  s.vendored_libraries  = 'lyhDobby/Classes/ThirdParty/*.{a}'
   
   # s.resource_bundles = {
   #   'lyhDobby' => ['lyhDobby/Assets/*.png']
   # }
   s.requires_arc = true
-  s.public_header_files = 'lyhDobby/**/*.h'  #公开的头文件，如果没有公开，用户在用的时候可能引不到响应的头文件
+  s.public_header_files = 'lyhDobby/Classes/*.{h}','lyhDobby/Classes/ThirdParty/*.{h}'  #公开的头文件，如果没有公开，用户在用的时候可能引不到响应的头文件
   # s.frameworks = 'UIKit', 'MapKit'  #需要依赖的框架
   # s.dependency 'AFNetworking', '~> 2.3'  #需要依赖的三方库
+  
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
+  
 end

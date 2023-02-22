@@ -1,5 +1,5 @@
 PODS:
-  - lyhDobby (0.1.0)
+  - lyhDobby (0.0.1)
 
 DEPENDENCIES:
   - lyhDobby (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  lyhDobby: be25b829c8cc1e88872ba6ab411479c9abf32525
+  lyhDobby: 36a3eba428ceaae8845034daadd5e7b2f36ebeff
 
 PODFILE CHECKSUM: db7489a2ac9f76bb1d01762280e5d52be1c647ce
 

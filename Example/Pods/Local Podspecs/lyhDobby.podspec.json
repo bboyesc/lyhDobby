@@ -1,9 +1,9 @@
 {
   "name": "lyhDobby",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of lyhDobby.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lyh/lyhDobby",
+  "homepage": "https://github.com/bboyesc/lyhDobby",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,20 @@
     "lyh": "592816249@qq.com"
   },
   "source": {
-    "git": "https://github.com/lyh/lyhDobby.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/bboyesc/lyhDobby.git",
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "lyhDobby/Classes/**/*"
+  "source_files": [
+    "lyhDobby/Classes/*.{h,m}",
+    "lyhDobby/Classes/ThirdParty/*.{h}"
+  ],
+  "vendored_libraries": "lyhDobby/Classes/ThirdParty/*.{a}",
+  "requires_arc": true,
+  "public_header_files": [
+    "lyhDobby/Classes/*.{h}",
+    "lyhDobby/Classes/ThirdParty/*.{h}"
+  ]
 }
