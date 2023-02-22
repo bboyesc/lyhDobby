@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lyh' => '592816249@qq.com' }
-  s.source           = { :git => 'https://github.com/lyh/lyhDobby.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://gitee.com/bboyesc/ly-dobby.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
