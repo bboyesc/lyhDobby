@@ -11,10 +11,12 @@
 		1EA37A989DBF2F16D965DA8ABBF5495E /* lyhDobby-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12946016AA0E36FD093E7FCF06E029 /* lyhDobby-dummy.m */; };
 		44FCB1AA2735A470CE37D54327F86276 /* Pods-lyhDobby_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C721B3AD85D54644BF6C3E06614C3D /* Pods-lyhDobby_Tests-dummy.m */; };
 		4DA8571C841E538826B47B824183046D /* Pods-lyhDobby_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F282EC91AF5611DD1883A19808D4E73C /* Pods-lyhDobby_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F99684C461D97B6C2E48536ABF09574 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F87C0FAF2F63A1304C555A79F94C28 /* ReplaceMe.m */; };
 		5453EA95230FEEF8B1D5ED05D4C46B23 /* Pods-lyhDobby_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CAE73133F18B52D4FDBB14808EDFC6 /* Pods-lyhDobby_Example-dummy.m */; };
 		757155F1E56EC1258BE65C83275DD651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8A345829333A179DC1833B15B1280F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		97BD358029A606D00099D547 /* LyDobby.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BD357E29A606D00099D547 /* LyDobby.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97BD358129A606D00099D547 /* LyDobby.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BD357F29A606D00099D547 /* LyDobby.m */; };
+		97BD358829A608A40099D547 /* dobby.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BD358629A608A40099D547 /* dobby.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFEE7F3D2BC4754467FAB9A9394CFE54 /* lyhDobby-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E57B112CCDDFEF328CBE349A59C1156 /* lyhDobby-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2421F760E02B0A1021D649D07B81031 /* Pods-lyhDobby_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 029CCBC859CC507780E1F436510D5EC5 /* Pods-lyhDobby_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -45,28 +47,31 @@
 		23B785569A5D415024EAF32F95CD7FA7 /* Pods-lyhDobby_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lyhDobby_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2613AFBFA9E705F03DA35116BBBBABD5 /* Pods-lyhDobby_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lyhDobby_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2F900AB613F721C48457BB0FBEE1434B /* lyhDobby.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = lyhDobby.modulemap; sourceTree = "<group>"; };
-		35820AF7FBE72B2A8937E8748E097A0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		35820AF7FBE72B2A8937E8748E097A0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		46CAE73133F18B52D4FDBB14808EDFC6 /* Pods-lyhDobby_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lyhDobby_Example-dummy.m"; sourceTree = "<group>"; };
 		539C51EC69784771ED2070265BDCFE08 /* lyhDobby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = lyhDobby.debug.xcconfig; sourceTree = "<group>"; };
 		5B12946016AA0E36FD093E7FCF06E029 /* lyhDobby-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lyhDobby-dummy.m"; sourceTree = "<group>"; };
-		674F52B5EB32BA381A345526886FB615 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		674F52B5EB32BA381A345526886FB615 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6F74545C53F844347B46F4D273F82CB0 /* Pods-lyhDobby_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-lyhDobby_Tests"; path = Pods_lyhDobby_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E57B112CCDDFEF328CBE349A59C1156 /* lyhDobby-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lyhDobby-umbrella.h"; sourceTree = "<group>"; };
 		7FBE476193850050755874092BBE62C1 /* Pods-lyhDobby_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lyhDobby_Example.modulemap"; sourceTree = "<group>"; };
-		86F87C0FAF2F63A1304C555A79F94C28 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = lyhDobby/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97BD357E29A606D00099D547 /* LyDobby.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LyDobby.h; sourceTree = "<group>"; };
+		97BD357F29A606D00099D547 /* LyDobby.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyDobby.m; sourceTree = "<group>"; };
+		97BD358529A608A40099D547 /* libdobby.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdobby.a; sourceTree = "<group>"; };
+		97BD358629A608A40099D547 /* dobby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dobby.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACC9A55143438D65F435063A7B0F2E02 /* Pods-lyhDobby_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lyhDobby_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AE59BF350415DBC3400F1C6D8C4A0306 /* Pods-lyhDobby_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lyhDobby_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B37779EFCDE6AA125E1AD46A33AFC646 /* lyhDobby-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "lyhDobby-Info.plist"; sourceTree = "<group>"; };
 		B5615E386A7761499898D629AC77A6C0 /* Pods-lyhDobby_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lyhDobby_Example-Info.plist"; sourceTree = "<group>"; };
-		B99F666D68BB62E50816551CA2CDD963 /* lyhDobby.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = lyhDobby.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B99F666D68BB62E50816551CA2CDD963 /* lyhDobby.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = lyhDobby.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D1FD43C4EDE741D60ED3077F942C684A /* Pods-lyhDobby_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lyhDobby_Tests-Info.plist"; sourceTree = "<group>"; };
 		D2C721B3AD85D54644BF6C3E06614C3D /* Pods-lyhDobby_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lyhDobby_Tests-dummy.m"; sourceTree = "<group>"; };
 		D3FF77D3AB0B815F986E8071C41958F4 /* Pods-lyhDobby_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lyhDobby_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D5477F6A106EA776C18843B46487D51B /* Pods-lyhDobby_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lyhDobby_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E081E2FFB55F2C91AAFE33D50E1039DD /* Pods-lyhDobby_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lyhDobby_Tests.modulemap"; sourceTree = "<group>"; };
-		E0B3465DC27E1F91AD2080F325190420 /* lyhDobby */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = lyhDobby; path = lyhDobby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B3465DC27E1F91AD2080F325190420 /* lyhDobby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lyhDobby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0F2F5AFB99FFEFCDAEA07384372582 /* Pods-lyhDobby_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lyhDobby_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F282EC91AF5611DD1883A19808D4E73C /* Pods-lyhDobby_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lyhDobby_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F41B586935FF99109BB46952E4BBB08B /* lyhDobby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = lyhDobby.release.xcconfig; sourceTree = "<group>"; };
@@ -167,7 +172,10 @@
 		6C4E14426C69C7A6C47F3D4BB7F0BAC4 /* lyhDobby */ = {
 			isa = PBXGroup;
 			children = (
-				86F87C0FAF2F63A1304C555A79F94C28 /* ReplaceMe.m */,
+				97BD357E29A606D00099D547 /* LyDobby.h */,
+				97BD357F29A606D00099D547 /* LyDobby.m */,
+				97BD358629A608A40099D547 /* dobby.h */,
+				97BD358529A608A40099D547 /* libdobby.a */,
 				8F924BA71C0F79B7985A21FE904616F3 /* Pod */,
 				2A9357A4DBCCFF1A0CA3B98E5BF8D5B5 /* Support Files */,
 			);
@@ -216,7 +224,7 @@
 		FC4E14CC915FA3CD3C1D0F0726A0FB1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0B3465DC27E1F91AD2080F325190420 /* lyhDobby */,
+				E0B3465DC27E1F91AD2080F325190420 /* lyhDobby.framework */,
 				0B3148E28988000A47B228D016DADC95 /* Pods-lyhDobby_Example */,
 				6F74545C53F844347B46F4D273F82CB0 /* Pods-lyhDobby_Tests */,
 			);
@@ -246,6 +254,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97BD358829A608A40099D547 /* dobby.h in Headers */,
+				97BD358029A606D00099D547 /* LyDobby.h in Headers */,
 				BFEE7F3D2BC4754467FAB9A9394CFE54 /* lyhDobby-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +316,7 @@
 			);
 			name = lyhDobby;
 			productName = lyhDobby;
-			productReference = E0B3465DC27E1F91AD2080F325190420 /* lyhDobby */;
+			productReference = E0B3465DC27E1F91AD2080F325190420 /* lyhDobby.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -368,7 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EA37A989DBF2F16D965DA8ABBF5495E /* lyhDobby-dummy.m in Sources */,
-				4F99684C461D97B6C2E48536ABF09574 /* ReplaceMe.m in Sources */,
+				97BD358129A606D00099D547 /* LyDobby.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,8 +571,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -684,7 +693,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/lyhDobby/lyhDobby-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/lyhDobby/lyhDobby-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/lyhDobby/lyhDobby.modulemap";
 				PRODUCT_MODULE_NAME = lyhDobby;
@@ -716,7 +725,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/lyhDobby/lyhDobby-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/lyhDobby/lyhDobby-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/lyhDobby/lyhDobby.modulemap";
 				PRODUCT_MODULE_NAME = lyhDobby;
